@@ -1,1 +1,41 @@
-
+parkeryang@Parkers-MacBook-Pro cli-basics-ParkerYang1 % pwd
+/Users/parkeryang/github-classroom/SACHSTech/cli-basics-ParkerYang1
+parkeryang@Parkers-MacBook-Pro cli-basics-ParkerYang1 % mkdir CLIBasicsFolder
+parkeryang@Parkers-MacBook-Pro cli-basics-ParkerYang1 % ls
+CLIBasicsFolder         README.md               TerminalSession.txt
+parkeryang@Parkers-MacBook-Pro cli-basics-ParkerYang1 % cd CLIBasicsFolder
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % touch myfile.txt
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % echo Parker Yang ICS4Ub
+Parker Yang ICS4Ub
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % echo Parker Yang ICS4Ub >> myfile.txt
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % touch myfile.txt
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % cat myfile.txt
+Parker Yang ICS4Ub
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % cp myfile.txt myfile_copy.txt
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % ls
+myfile.txt      myfile_copy.txt
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % mv myfile_copy.txt myfile2.txt
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % ls
+myfile.txt      myfile2.txt
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % pwd            
+/Users/parkeryang/github-classroom/SACHSTech/cli-basics-ParkerYang1/CLIBasicsFolder
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % mv myfile2.txt ~
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % ls
+myfile.txt
+parkeryang@Parkers-MacBook-Pro CLIBasicsFolder % cd ~
+parkeryang@Parkers-MacBook-Pro ~ % pwd
+/Users/parkeryang
+parkeryang@Parkers-MacBook-Pro ~ % ls
+Applications            Downloads               Music                   github-classroom
+Desktop                 Library                 Pictures                myfile2.txt
+Documents               Movies                  Publi
+parkeryang@Parkers-MacBook-Pro SACHSTech % cd ..
+parkeryang@Parkers-MacBook-Pro cli-basics-ParkerYang1 % ls
+CLIBasicsFolder         README.md               TerminalSession.txt
+parkeryang@Parkers-MacBook-Pro cli-basics-ParkerYang1 % rm ./CLIBasicsFolder/myfile.txt 
+parkeryang@Parkers-MacBook-Pro cli-basics-ParkerYang1 % rmdir CLIBasicsFolder
+parkeryang@Parkers-MacBook-Pro cli-basics-ParkerYang1 % cd ~
+parkeryang@Parkers-MacBook-Pro ~ % ls
+Applications            Downloads               Music                   github-classroom
+Desktop                 Library                 Pictures                myfile2.txt
+Documents               Movies                  Public
